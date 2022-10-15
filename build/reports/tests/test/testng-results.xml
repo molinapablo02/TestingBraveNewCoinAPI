@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-14T23:43:24 ART" name="Gradle suite" finished-at="2022-10-14T23:43:42 ART" duration-ms="18352">
+    <groups>
+    </groups>
+    <test started-at="2022-10-14T23:43:24 ART" name="Gradle test" finished-at="2022-10-14T23:43:42 ART" duration-ms="18352">
+      <class name="GetDailyOHLCV">
+        <test-method is-config="true" signature="setUpRestAsurred()[pri:0, instance:GetDailyOHLCV@53976f5c]" started-at="2022-10-14T23:43:40 ART" name="setUpRestAsurred" finished-at="2022-10-14T23:43:40 ART" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRestAsurred -->
+        <test-method signature="getDailyOHLCV()[pri:0, instance:GetDailyOHLCV@53976f5c]" started-at="2022-10-14T23:43:40 ART" name="getDailyOHLCV" finished-at="2022-10-14T23:43:40 ART" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDailyOHLCV -->
+      </class> <!-- GetDailyOHLCV -->
+      <class name="Asset">
+        <test-method is-config="true" signature="setUpRestAsurred()[pri:0, instance:Asset@11bd0f3b]" started-at="2022-10-14T23:43:24 ART" name="setUpRestAsurred" finished-at="2022-10-14T23:43:26 ART" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRestAsurred -->
+        <test-method signature="getAsset()[pri:0, instance:Asset@11bd0f3b]" started-at="2022-10-14T23:43:26 ART" name="getAsset" finished-at="2022-10-14T23:43:40 ART" duration-ms="14072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAsset -->
+      </class> <!-- Asset -->
+      <class name="GetToken">
+        <test-method is-config="true" signature="setUpRestAsurred()[pri:0, instance:GetToken@2bfc268b]" started-at="2022-10-14T23:43:40 ART" name="setUpRestAsurred" finished-at="2022-10-14T23:43:40 ART" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRestAsurred -->
+        <test-method signature="postGetToken()[pri:0, instance:GetToken@2bfc268b]" started-at="2022-10-14T23:43:40 ART" name="postGetToken" finished-at="2022-10-14T23:43:42 ART" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postGetToken -->
+      </class> <!-- GetToken -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>

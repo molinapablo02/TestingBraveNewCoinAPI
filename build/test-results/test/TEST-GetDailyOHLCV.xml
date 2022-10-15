@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GetDailyOHLCV" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-15T02:43:40" hostname="MacBook-Pro-de-Pablo.local" time="0.491">
+  <properties/>
+  <testcase name="getDailyOHLCV" classname="GetDailyOHLCV" time="0.491"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://bravenewcoin.p.rapidapi.com/ohlcv?size=10
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		ContentType=application/json
+				ContentType=application/json
+				Accept=application/json
+				Authorization=Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik5EVXhNRGhHT0VReE56STVOelJCTTBJM1FrUTVOa0l4TWtRd1FrSTJSalJFTVRaR1F6QTBOZyJ9.eyJpc3MiOiJodHRwczovL2F1dGguYnJhdmVuZXdjb2luLmNvbS8iLCJzdWIiOiJvQ2RRb1pvSTk2RVJFOUhZM3NRN0ptYkFDZkJmNTVSWUBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9hcGkuYnJhdmVuZXdjb2luLmNvbSIsImlhdCI6MTY2NTQxNTAyOSwiZXhwIjoxNjY1NTAxNDI5LCJhenAiOiJvQ2RRb1pvSTk2RVJFOUhZM3NRN0ptYkFDZkJmNTVSWSIsInNjb3BlIjoicmVhZDppbmRleC10aWNrZXIgcmVhZDpyYW5raW5nIHJlYWQ6bXdhIHJlYWQ6Z3dhIHJlYWQ6YWdncmVnYXRlcyByZWFkOm1hcmtldCByZWFkOmFzc2V0IHJlYWQ6b2hsY3YgcmVhZDptYXJrZXQtY2FwIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.Qe3TlOTL4m4r6HcB9zQxTY8dd8PGZ3duEyakmMo1Bi_aSCFKC4tjcemo2ic1CANxickoOZhdypHv-2V2uFG17t142SDfB6CWLhK0OHycvMpFMNYYNXbNlh6V5dE1TUSHklK1aQ5ugsOqPuZkeOO38Oi02JRcE4Q7JeII5yoUoZhrfYrgkjVnXVW7CvhUvJ3FALOqqVqYsKCMFeyDETfSYuVkWa6MtZd-b98BEj5ciNtPUuagVZF92jlL7LtAXd3RJQPSmohi21FWKZ0cOLlOR2HMOL2o5F4vBH8I1k8g84TxGJNid4vnI-htLleadXL4mRUzq3ScNHbEDVMgirmGzg
+				X-RapidAPI-Key=a1a2b4eb17msh6a7fed06a8297d5p16dae6jsna5e67b4f306c
+				X-RapidAPI-Host=bravenewcoin.p.rapidapi.com
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Date: Sat, 15 Oct 2022 02:43:40 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-RapidAPI-Version: 1.2.8
+X-RapidAPI-Region: AWS - sa-east-1
+X-RapidAPI-Proxy-Response: true
+Server: RapidAPI-1.2.8
+
+{
+    "message": "This endpoint is disabled for your subscription"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
