@@ -16,7 +16,6 @@ public class Base {
 
     // Setting the base URI and base path for the API.
     RestAssured.baseURI = "https://bravenewcoin.p.rapidapi.com";
-    // RestAssured.basePath = "/oauth";
     RequestSpecification requestSpecification = new RequestSpecBuilder()
         .addHeader("ContentType", ContentType.JSON.toString())
         .addHeader("Accept", ContentType.JSON.toString())
